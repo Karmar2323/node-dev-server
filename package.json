@@ -1,0 +1,12 @@
+{
+  "name": "node-server",
+  "version": "0.1.0",
+  "description": "Local server for testing http",
+  "main": "NodeServer.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC"
+}
