@@ -26,7 +26,7 @@ class NodeServer {
       }).on('end', () => {
         body = Buffer.concat(body).toString();
         response.statusCode = 200;
-        response.setHeader('Content-Type', 'text/plain');
+        response.setHeader('Content-Type', 'text/html');
         response.end(`<html><body><h1>Hello ${this.requestCounter}. time client</h1></body></html>\n`);
       });
 
