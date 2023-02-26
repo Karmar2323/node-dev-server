@@ -1,9 +1,13 @@
+/* build-node-server.js
+Loads a file for NodeServer.js and starts it with host and port information.
+*/
+
 import fs from 'node:fs';
 import NodeServer from "./NodeServer.js";
 
 const port = 3001;
 
-// TODO add option to change path for the data file
+// TODO add option to change path for the data file, choose other port?
 let fileData;
 try {
     fileData = fs.readFileSync('../test-page/index.html');
